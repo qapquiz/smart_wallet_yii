@@ -1,0 +1,317 @@
+2013/11/26 00:53:29 [error] [php] include(Mongo.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(144): spl_autoload_call()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): PromotionsMongo->getDb()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): PromotionsMongo->getCollection()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): PromotionsMongo->init()
+#6 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): PromotionsMongo->__construct()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (144)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (181)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php (166)
+2013/11/26 01:04:38 [error] [php] Mongo::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:146)
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): PromotionsMongo->getDb()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): PromotionsMongo->getCollection()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): PromotionsMongo->init()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): PromotionsMongo->__construct()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (146)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (181)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php (166)
+2013/11/26 01:05:03 [error] [php] Mongo::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:146)
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): PromotionsMongo->getDb()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): PromotionsMongo->getCollection()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): PromotionsMongo->init()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): PromotionsMongo->__construct()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (146)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (181)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php (166)
+2013/11/26 01:06:39 [error] [php] Mongo::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:146)
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): PromotionsMongo->getDb()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): PromotionsMongo->getCollection()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): PromotionsMongo->init()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): PromotionsMongo->__construct()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (146)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php (181)
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php (166)
+2013/11/26 01:54:03 [error] [php] Array to string conversion (C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+in C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php (10)
+in C:\xampp\htdocs\smart_wallet_yii\index.php (13)
+2013/11/26 02:18:44 [error] [php] Undefined index: imageUrlTextField (C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion?titleTextField=this+is+second+title.&descriptionTextField=this+is+second+description&brandTextField=armariya&categoryTextField=food&startDateTextField=20%2F11%2F2013&endDateTextField=30%2F11%2F2013
+in C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php (13)
+in C:\xampp\htdocs\smart_wallet_yii\index.php (13)
+2013/11/26 02:20:13 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yii\framework\base\CModel.php:284)
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(567): PromotionsMongo->validate()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\models\PromotionsMongo.php(44): PromotionsMongo->save()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(18): PromotionsMongo->insertPromotion()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): AddPromotionController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): AddPromotionController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AddPromotionController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion?titleTextField=this+is+second+title.&descriptionTextField=this+is+second+description&imageUrlTextField=chrome.dll&brandTextField=armariya&categoryTextField=food&startDateTextField=20%2F11%2F2013&endDateTextField=30%2F11%2F2013
+in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php (567)
+in C:\xampp\htdocs\smart_wallet_yii\protected\models\PromotionsMongo.php (44)
+in C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php (18)
+2013/11/26 02:33:38 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username '<dbuser>': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion?titleTextField=this+is+second+title.&descriptionTextField=this+is+second+description&imageUrlTextField=chrome.dll&brandTextField=armariya&categoryTextField=food&startDateTextField=20%2F11%2F2013&endDateTextField=30%2F11%2F2013
+---
+2013/11/26 02:34:01 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'armariya': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion?titleTextField=this+is+second+title.&descriptionTextField=this+is+second+description&imageUrlTextField=chrome.dll&brandTextField=armariya&categoryTextField=food&startDateTextField=20%2F11%2F2013&endDateTextField=30%2F11%2F2013
+---
+2013/11/26 02:34:05 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'armariya': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+---
+2013/11/26 02:34:13 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'armariya': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+---
+2013/11/26 02:35:15 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'armariya': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+---
+2013/11/26 02:36:10 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'armariya': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+---
+2013/11/26 02:49:47 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Failed to connect to: ds063287.mongolab.com:63287: Authentication failed on database 'admin' with username 'parasol': auth fails' in C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 C:\xampp\htdocs\smart_wallet_yii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\xampp\htdocs\smart_wallet_yii\protected\controllers\AddPromotionController.php(7): EMongoDocument->__construct()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AddPromotionController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AddPromotion')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/AddPromotion
+---
+2013/11/26 04:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Promotions".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Promotions')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Promotions')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Promotions/Prom...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/Promotions?titleTextField=&descriptionTextField=&brandTextField=&categoryTextField=&startDateTextField=&endDateTextField=
+HTTP_REFERER=http://localhost/smart_wallet_yii/index.php/Promotions/addPromotion
+---
+2013/11/26 04:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Promotions/inde...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/index.php/Promotions?titleTextField=&descriptionTextField=&brandTextField=&categoryTextField=&startDateTextField=&endDateTextField=
+HTTP_REFERER=http://localhost/smart_wallet_yii/index.php/Promotions/addPromotion
+---
+2013/11/26 05:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Promotions/inde...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/index.php/Promotions?titleTextField=qwfl%5Bqwl&descriptionTextField=%5Bld%5Bqwld&imageUrlTextField=chrome_frame_helper.dll&brandTextField=pwlef%5Bwl&categoryTextField=%5Bl%5Bwlf%5Bqfl&startDateTextField=lf%5Bewlf%5B&endDateTextField=lf%5Bwe
+HTTP_REFERER=http://localhost/smart_wallet_yii/index.php/Promotions/addPromotion
+---
+2013/11/26 05:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Promotions/inde...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/index.php/Promotions?titleTextField=fplewf%5Bleqelf%5Blf&descriptionTextField=fepw%5Blf%5Bq&imageUrlTextField=chrome_100_percent.pak&brandTextField=fpwkefp&categoryTextField=pkfewpokfpq&startDateTextField=kfp&endDateTextField=kfwpokf
+HTTP_REFERER=http://localhost/smart_wallet_yii/index.php/Promotions/addPromotion
+---
+2013/11/26 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Promotions/inde...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/index.php/Promotions?titleTextField=this+is+fourth+title&descriptionTextField=this+is+fourth+description&imageUrlTextField=chrome_frame_helper.dll&brandTextField=armariya&categoryTextField=food&startDateTextField=26%2F11%2F2013&endDateTextField=30%2F11%2F2013
+HTTP_REFERER=http://localhost/smart_wallet_yii/index.php/Promotions/addPromotion
+---
+2013/11/26 11:10:15 [error] [php] call_user_func() expects parameter 1 to be a valid callback, function 'callbackRedirect' not found or invalid function name (C:\xampp\htdocs\smart_wallet_yii\protected\controllers\PromotionsController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): PromotionsController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): PromotionsController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PromotionsController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\smart_wallet_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart_wallet_yii/index.php/Promotions/addPromotion?titleTextField=This+is+fifth+title&descriptionTextField=this+is+fifth+description&imageUrlTextField=chrome_100_percent.pak&brandTextField=armariya&categoryTextField=food&startDateTextField=30%2F11%2F2013&endDateTextField=30%2F12%2F2013
+in C:\xampp\htdocs\smart_wallet_yii\protected\controllers\PromotionsController.php (44)
+in C:\xampp\htdocs\smart_wallet_yii\index.php (13)
